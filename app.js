@@ -17,7 +17,7 @@ app.use(function (err, req, res, next) {
   res.status(400).send(err.message);
 });
 
-app.post('/hello', hellobot);
+app.post('/hello123', hellobot);
 
 app.listen(port, function () {
   console.log('Slack bot listening on port ' + port);
